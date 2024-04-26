@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RaddioButton1</string>
+    <string name="male">男生</string>
+    <string name="female">女生</string>
+    <string name="reqularticket">全票</string>
+    <string name="childticket">兒童票</string>
+    <string name="studentticket">學生票</string>
+    <string name="fivehundred">$500</string>
+    <string name="twoHundredfifty">$250</string>
+    <string name="fourhundred">$400</string>
+    <string name="number"></string>
+</resources>
