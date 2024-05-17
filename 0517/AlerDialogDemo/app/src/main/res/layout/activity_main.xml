@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="131dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="72dp"
+        android:onClick="button_Click"
+        android:text="關於本書"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="132dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="40dp"
+        android:text="結束程式"
+        app:layout_constraintEnd_toEndOf="@+id/btnAbout"
+        app:layout_constraintStart_toStartOf="@+id/btnAbout"
+        app:layout_constraintTop_toBottomOf="@+id/btnAbout" />
+
+    <Button
+        android:id="@+id/btnColor"
+        android:layout_width="129dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="48dp"
+        android:text="指定色彩"
+        app:layout_constraintEnd_toEndOf="@+id/btnExit"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnExit"
+        app:layout_constraintTop_toBottomOf="@+id/btnExit" />
+
+    <Button
+        android:id="@+id/btnSelect"
+        android:layout_width="126dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="48dp"
+        android:text="選擇手機"
+        app:layout_constraintEnd_toEndOf="@+id/btnColor"
+        app:layout_constraintStart_toStartOf="@+id/btnColor"
+        app:layout_constraintTop_toBottomOf="@+id/btnColor" />
+
+    <TextView
+        android:id="@+id/txvShow"
+        android:layout_width="98dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="112dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnSelect"
+        app:layout_constraintStart_toStartOf="@+id/btnSelect"
+        app:layout_constraintTop_toBottomOf="@+id/btnSelect" />
+</androidx.constraintlayout.widget.ConstraintLayout>
