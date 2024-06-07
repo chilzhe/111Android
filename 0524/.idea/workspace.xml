@@ -31,6 +31,18 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -44,8 +56,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "android.gradle.sync.needed": "true",
     "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true"
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/s303/Documents/GitHub/111Android/0524"
   }
 }]]></component>
   <component name="RunManager">
